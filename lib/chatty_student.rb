@@ -1,11 +1,11 @@
-class ChattyStudent < Student
+class ChattyStudent < Studet
   def hello
     super 
   end 
   
   def raise_hand
     10.times do
-      puts 
+      super
     end
   end
 end
